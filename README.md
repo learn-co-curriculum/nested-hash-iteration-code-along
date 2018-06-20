@@ -100,7 +100,7 @@ What is `data` when we hit the binding? If it's unclear, let's go into our bindi
 
 ###Step 4. Update the hash
 
-Lastly, we will use `delete_if` to iterate through the ice cream array and remove any element that matches "strawberry". `delete_if` will iterate through the hash and delete the key/value pair if the block returns `true`. [Learn more about it in the ruby docs.](http://ruby-doc.org/core-1.9.3/Hash.html#method-i-delete_if).
+Lastly, we will use `delete_if` to iterate through the ice cream array and remove any element that matches "strawberry". `delete_if` will iterate through the hash and delete the key/value pair if the block returns `true`. [Learn more about it in the ruby docs.](http://ruby-doc.org/core-2.2.0/Hash.html#method-i-delete_if).
 
 ```ruby
 contacts.each do |person, contact_details_hash|
@@ -128,3 +128,5 @@ Congrats! You made it. Test that your method works by running `ruby bin/contacts
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/nested-hash-iteration-code-along' title='Code Along: Manipulating Nested Hashes'>Code Along: Manipulating Nested Hashes</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/nested-hash-iteration-code-along'>Iterating over Nested Hashes Codealong</a> on Learn.co and start learning to code for free.</p>
