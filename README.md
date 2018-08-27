@@ -89,7 +89,7 @@ Type `exit` while in pry to continue (a second `pry` will trigger since we have
 _two_ contacts). Running `learn` will also display a test, which we haven't
 passed just yet.
 
-You can also run `ruby lib/contacts` in the terminal - instead of displaying the
+You can also run `ruby lib/contacts.rb` in the terminal - instead of displaying the
 the test results, this will reach the `binding.pry`.
 
 #### Step 2. Iterate over the second level
@@ -157,7 +157,7 @@ end
 ```
 
 Congrats! You made it. Test that your method works by running `ruby
-bin/contacts` in the terminal. It should output the hash without strawberry ice
+bin/contacts.rb` in the terminal. It should output the hash without strawberry ice
 cream. Also, be sure to run the specs to make sure they pass.
 
 [rubydocs]: https://docs.ruby-lang.org/en/2.0.0/Hash.html#method-i-delete_if
